@@ -169,7 +169,7 @@ fthumb = setting.fakethumb
 hit_today = []
 blocked = []
 ban = []
-limitawal = "9999999"
+limitawal = "90"
 gcounttprem = "55" 
 gcounttuser = "100" 
 
@@ -186,9 +186,9 @@ banChats = setting.self_mode
 autorespon = true
 offline = false
 readGc = true 
-readPc = false 
-antitrol = false 
-bugc = false
+readPc = true 
+antitrol = true 
+bugc = true
 autovn = true
 autoketik = false
 autoregister = setting.user_register
@@ -1289,8 +1289,8 @@ if (autobio === false) return
       settingstatus = new Date() * 1;
     }}
 		mess = {
-			wait: '```[ ! ] Proses kak...```',
-			success: '```[ ✓ ]``` Success',
+			wait: '```[ ! ] Loading```',
+			success: '```[ ✓ ]``` Done',
 			wrongFormat: 'Format salah, coba liat lagi di menu',
 			error: {
 				stick: 'Itu bukan stiker',
@@ -1385,7 +1385,7 @@ key: {
 					"title": 'Whatsapp bot', 
 					"description": "SELF BOT", 
 					"currencyCode": "IDR",
-					"priceAmount1000": "70000000",
+					"priceAmount1000": "90000000",
 					"retailerId": 'Whatsapp bot',
 					"productImageCount": 1
 				},
@@ -1409,7 +1409,7 @@ const bugtrol = {
 						"sellerJid": "62887435047326@s.whatsapp.net",
 						"token": "AR5b5YFz2g4W5fYrjbeakPiI3/XxarATSeP+KLh+0FGwkw=="
 					}}}
-       const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "6289523258649-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync(`image/${thumbnail}`), surface: 200, message: `Whatsapp Bot 〽️\nBy ${ownername}`, orderTitle: 'zeeoneofc', sellerJid: '0@s.whatsapp.net'}},contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+       const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "6289523258649-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 1945,status: 200, thumbnail: fs.readFileSync(`image/${thumbnail}`), surface: 200, message: `What The Fuck\nBy ${ownername}`, orderTitle: 'zeeoneofc', sellerJid: '0@s.whatsapp.net'}},contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
         const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `${creator}`,jpegThumbnail: fs.readFileSync(`image/${thumbnail}`)}}}
         const fvn = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":99999,"ptt": "true"}} } 
         const fgif = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`Whatsapp Bot 〽️\nBy ${ownername}`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `Whatsapp Bot 〽️\nBy ${ownername}`, 'jpegThumbnail': fs.readFileSync(`image/${thumbnail}`)}}}
