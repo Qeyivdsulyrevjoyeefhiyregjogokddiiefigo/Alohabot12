@@ -110,7 +110,7 @@ ${petik}└❒ ${prefix}anime${petik} _random_
 `
 }
 const allmenu = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)  => {
-	return`❏───「 *ALPHA BOT* 」───❏
+	return`
      
 ┌❏ *INDONESIA TIME*
 ${petik}│◦➛ WIB : ${timuu}
@@ -407,68 +407,6 @@ ${petik}│◦ ${prefix}3dchrome${petik} text
 ${petik}│◦ ${prefix}metalb2${petik} text
 ${petik}│◦ ${prefix}metalg${petik} text
 ${petik}│◦ ${prefix}metalg${petik} text
-│
-├❑「 *PHOTOOXY MENU* 」
-│
-${petik}│◦ ${prefix}captain_as${petik} text|text2
-${petik}│◦ ${prefix}smoke${petik} text|text2
-${petik}│◦ ${prefix}tiktok2${petik} text|text2 
-${petik}│◦ ${prefix}arcade${petik} text|text2
-${petik}│◦ ${prefix}battlefield${petik} text|text2
-${petik}│◦ ${prefix}pubg${petik} text|text2
-${petik}│◦ ${prefix}shadow${petik} text
-${petik}│◦ ${prefix}cname${petik} text
-${petik}│◦ ${prefix}romantic${petik} text
-${petik}│◦ ${prefix}burnpaper${petik} text
-${petik}│◦ ${prefix}funnycup${petik} text
-${petik}│◦ ${prefix}love${petik} text
-${petik}│◦ ${prefix}undergrass${petik} text          
-${petik}│◦ ${prefix}heart${petik} text
-${petik}│◦ ${prefix}coffeecup${petik} text
-${petik}│◦ ${prefix}wood${petik} text          
-${petik}│◦ ${prefix}flower${petik} text         
-${petik}│◦ ${prefix}wooden${petik} text 
-${petik}│◦ ${prefix}3dsummer${petik} text
-${petik}│◦ ${prefix}wolf_metal${petik} text
-${petik}│◦ ${prefix}3dnature${petik} text
-${petik}│◦ ${prefix}underwater${petik} text          
-${petik}│◦ ${prefix}goldenrose${petik} text
-${petik}│◦ ${prefix}vector${petik} text
-${petik}│◦ ${prefix}typography${petik} text
-${petik}│◦ ${prefix}typography2${petik} text 
-${petik}│◦ ${prefix}underfall${petik} text  
-${petik}│◦ ${prefix}smokyneon${petik} text 
-${petik}│◦ ${prefix}rainbow${petik} text 
-${petik}│◦ ${prefix}graffiti${petik} text
-${petik}│◦ ${prefix}camouflage${petik} text
-${petik}│◦ ${prefix}3dglowing${petik} text          
-${petik}│◦ ${prefix}vintage${petik} text
-${petik}│◦ ${prefix}honey${petik} text 
-${petik}│◦ ${prefix}whitecube${petik} text
-${petik}│◦ ${prefix}avatar${petik} text 
-${petik}│◦ ${prefix}glowrainbow${petik} text
-${petik}│◦ ${prefix}nightsky${petik} text
-${petik}│◦ ${prefix}fur${petik} text
-${petik}│◦ ${prefix}flaming${petik} text          
-${petik}│◦ ${prefix}crisp${petik} text
-${petik}│◦ ${prefix}embroidery${petik} text
-${petik}│◦ ${prefix}bcake${petik} text          
-${petik}│◦ ${prefix}3dligth${petik} text
-${petik}│◦ ${prefix}metallic${petik} text 
-${petik}│◦ ${prefix}striking${petik} text
-${petik}│◦ ${prefix}watermelon${petik} text         
-${petik}│◦ ${prefix}butterfly${petik} text
-${petik}│◦ ${prefix}harry${petik} text
-${petik}│◦ ${prefix}glowneon${petik} text
-${petik}│◦ ${prefix}coffecup2${petik} text          
-${petik}│◦ ${prefix}luxury${petik} text 
-${petik}│◦ ${prefix}cemetery${petik} text
-${petik}│◦ ${prefix}woodblock${petik} text
-${petik}│◦ ${prefix}sweet${petik} text
-${petik}│◦ ${prefix}simple${petik} text
-${petik}│◦ ${prefix}bevel${petik} text
-${petik}│◦ ${prefix}underflower${petik} text         
-${petik}│◦ ${prefix}underflower2${petik} text
 │
 ├❑「 *MAKER MENU* 」
 │
@@ -1149,70 +1087,6 @@ ${petik}└❒ ${prefix}metalg${petik} text
 `
 }
 
-const photooxy = (prefix) => {
-	return`┌❑  *PHOTOOXY MENU* ❑
-│
-${petik}├❒ ${prefix}captain_as${petik} text|text2
-${petik}├❒ ${prefix}smoke${petik} text|text2
-${petik}├❒ ${prefix}tiktok2${petik} text|text2 
-${petik}├❒ ${prefix}arcade${petik} text|text2
-${petik}├❒ ${prefix}battlefield${petik} text|text2
-${petik}├❒ ${prefix}pubg${petik} text|text2
-${petik}├❒ ${prefix}shadow${petik} text
-${petik}├❒ ${prefix}cname${petik} text
-${petik}├❒ ${prefix}romantic${petik} text
-${petik}├❒ ${prefix}burnpaper${petik} text
-${petik}├❒ ${prefix}funnycup${petik} text
-${petik}├❒ ${prefix}love${petik} text
-${petik}├❒ ${prefix}undergrass${petik} text          
-${petik}├❒ ${prefix}heart${petik} text
-${petik}├❒ ${prefix}coffeecup${petik} text
-${petik}├❒ ${prefix}wood${petik} text          
-${petik}├❒ ${prefix}flower${petik} text         
-${petik}├❒ ${prefix}wooden${petik} text 
-${petik}├❒ ${prefix}3dsummer${petik} text
-${petik}├❒ ${prefix}wolf_metal${petik} text
-${petik}├❒ ${prefix}3dnature${petik} text
-${petik}├❒ ${prefix}underwater${petik} text          
-${petik}├❒ ${prefix}goldenrose${petik} text
-${petik}├❒ ${prefix}vector${petik} text
-${petik}├❒ ${prefix}typography${petik} text
-${petik}├❒ ${prefix}typography2${petik} text 
-${petik}├❒ ${prefix}underfall${petik} text  
-${petik}├❒ ${prefix}smokyneon${petik} text 
-${petik}├❒ ${prefix}rainbow${petik} text 
-${petik}├❒ ${prefix}graffiti${petik} text
-${petik}├❒ ${prefix}camouflage${petik} text
-${petik}├❒ ${prefix}3dglowing${petik} text          
-${petik}├❒ ${prefix}vintage${petik} text
-${petik}├❒ ${prefix}honey${petik} text 
-${petik}├❒ ${prefix}whitecube${petik} text
-${petik}├❒ ${prefix}avatar${petik} text 
-${petik}├❒ ${prefix}glowrainbow${petik} text
-${petik}├❒ ${prefix}nightsky${petik} text
-${petik}├❒ ${prefix}fur${petik} text
-${petik}├❒ ${prefix}flaming${petik} text          
-${petik}├❒ ${prefix}crisp${petik} text
-${petik}├❒ ${prefix}embroidery${petik} text
-${petik}├❒ ${prefix}bcake${petik} text          
-${petik}├❒ ${prefix}3dligth${petik} text
-${petik}├❒ ${prefix}metallic${petik} text 
-${petik}├❒ ${prefix}striking${petik} text
-${petik}├❒ ${prefix}watermelon${petik} text         
-${petik}├❒ ${prefix}butterfly${petik} text
-${petik}├❒ ${prefix}harry${petik} text
-${petik}├❒ ${prefix}glowneon${petik} text
-${petik}├❒ ${prefix}coffecup2${petik} text          
-${petik}├❒ ${prefix}luxury${petik} text 
-${petik}├❒ ${prefix}cemetery${petik} text
-${petik}├❒ ${prefix}woodblock${petik} text
-${petik}├❒ ${prefix}sweet${petik} text
-${petik}├❒ ${prefix}simple${petik} text
-${petik}├❒ ${prefix}bevel${petik} text
-${petik}├❒ ${prefix}underflower${petik} text         
-${petik}└❒ ${prefix}underflower2${petik} text
-`
-}
 
 const other = (prefix) => {
 	return`┌❑  *GROUP MENU* ❑
@@ -1723,7 +1597,6 @@ exports.funmenu = fun
 exports.downloadmenu = download
 exports.makermenu = maker
 exports.textpromenu = textpro
-exports.photooxymenu = photooxy
 exports.othermenu = other
 exports.ownermenu = ownermenu
 exports.storagemenu = storage
