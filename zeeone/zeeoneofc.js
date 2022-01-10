@@ -1,6 +1,13 @@
 const petik = '```'
 const help = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)=> {
-	return`┌❏ *INDONESIA TIME*
+	return`
+ℒ⃝👨‍💻 *C O N N E C T  W I T H  M E*
+
+♈ YouTube : Reza https://youtu.be/_De5EgwBPM8
+♊ Instagram : instagram.com/reteam.id
+♏ WhatsApp : wa.me/6288217843188
+
+┌❏ *INDONESIA TIME*
 ${petik}│◦➛ WIB : ${timuu}
 │◦➛ WITA : ${wita}
 └❏ WIT : ${wit}${petik}
