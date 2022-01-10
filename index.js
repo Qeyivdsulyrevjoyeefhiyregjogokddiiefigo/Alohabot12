@@ -2073,11 +2073,11 @@ if (tebakanime.hasOwnProperty(sender.split('@')[0]) && !isCmd) {
             }
             if (isCmd && msgFilter.isFiltered(from) && !isGroup) {
 						console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32m CMD \x1b[1;37m]', timuu, color(command), 'from', color(pushname), 'in Private', 'args :', color(args.length))
-						return reply2('Don`t Spam, 3 seconds per command')
+						return reply2('Spam ban')
 						} 
 					if (isCmd && msgFilter.isFiltered(from) && isGroup) {
 						console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32m CMD \x1b[1;37m]', timuu, color(command), 'from', color(pushname), 'in', color(groupName), 'args :', color(args.length))
-						return reply2('Don`t Spam, 3 seconds per command')
+						return reply2('Call ban')
 					}
            ////   
 //========================================================================================================================//
@@ -2089,7 +2089,7 @@ if (tebakanime.hasOwnProperty(sender.split('@')[0]) && !isCmd) {
 		const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stickerMessage')
 	    const isQuotedMsg = type === 'extendedTextMessage' && content.includes('Message')
 		if (isCmd && isGroup){
-		console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32m CMD \x1b[1;37m]', timuu, color(command), 'from', color(pushname), 'in', color(groupName), 'args :', color(args.length))
+		console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;2m CMD \x1b[1;37m]', timuu, color(command), 'from', color(pushname), 'in', color(groupName), 'args :', color(args.length))
 		addBalance(sender, randomNomor(20), balance)
 			}	
             //await alpha.updatePresence(from, Presence.recording)
@@ -2232,6 +2232,12 @@ let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
 ini_anu =`${ucapannya2}
 
+ℒ⃝👨‍💻 *C O N N E C T  W I T H  M E*
+
+♈ YouTube : https://youtu.be/_De5EgwBPM8
+♊ Instagram : instagram.com/reteam.id
+♏ WhatsApp : wa.me/6288217843188
+
 ╭─❒ 「 Bot Info 」 ❒
 ├ Creator :  @${koko.split('@')[0]}
 ├ Powered  : @${ini_mark.split('@')[0]}
@@ -2260,7 +2266,7 @@ let bacotlu1 = media1.message["ephemeralMessage"] ? media1.message.ephemeralMess
 const buttons1 = [
   {buttonId: 'ownerku', buttonText: {displayText: '⋮☰ OWNER'}, type: 1},
   {buttonId: 'statiktiknya', buttonText:{displayText: '✓ STATISTIC'}, type: 1},
-  {buttonId: 'Command', buttonText: {displayText: '❍ LIST MESSAGE'}, type: 1}
+  {buttonId: 'me', buttonText: {displayText: '❍ PROCFILE'}, type: 1}
 ]
 
 const btn1 = {
@@ -3591,11 +3597,11 @@ break
 							break
 				case 'donasi': case 'donate':
 							let donas = await getBuffer('https://telegra.ph/file/2203a91ba6216de345c3d.jpg')
-							sendButLocation(from, donasibot() , `Jangan klik doang, donasi ya 🌝 ${enter}${enter}${botname}™© | By ${ownername}`,donas,  [{"buttonId": `qr_gopay1`,"buttonText": {"displayText": "QR GOPAY"},"type": "RESPONSE"},{"buttonId": `qr_dana1`,"buttonText": {"displayText": "QR DANA"},"type": "RESPONSE"},{"buttonId": `qr_ovo1`,"buttonText": {"displayText": "QR OVO"},"type": "RESPONSE"}], {})
+							sendButLocation(from, donasibot() , `Jangan klik doang, donasi ya  ${enter}${enter}${botname}™© | By ${ownername}`,donas,  [{"buttonId": `qr_gopay1`,"buttonText": {"displayText": "QR GOPAY"},"type": "RESPONSE"},{"buttonId": `qr_dana1`,"buttonText": {"displayText": "QR DANA"},"type": "RESPONSE"},{"buttonId": `qr_ovo1`,"buttonText": {"displayText": "QR OVO"},"type": "RESPONSE"}], {})
 							break
 				case 'gcbot': case 'grupbot': case 'groupbot':
 							let gcbot = await getBuffer('https://telegra.ph/file/09d4f9b77a0745f35bdfa.jpg')
-							sendButLocation(from, gcbotwa() , `Jangan klik doang, join napa 〽️ ${enter}${enter}${botname}™© | By ${ownername}`,gcbot,  [{"buttonId": `sewabot`,"buttonText": {"displayText": "SEWABOT"},"type": "RESPONSE"}], {})
+							sendButLocation(from, gcbotwa() , `Jangan klik doang, join napa  ${enter}${enter}${botname}™© | By ${ownername}`,gcbot,  [{"buttonId": `sewabot`,"buttonText": {"displayText": "SEWABOT"},"type": "RESPONSE"}], {})
 							break
 				case 'infobot':
 				let infobopot = await getBuffer('https://telegra.ph/file/06fad83011a4b1cecd4ba.jpg')
